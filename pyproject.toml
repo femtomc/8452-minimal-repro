@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "8452-minimal-repro"
+version = "0.1.0"
+description = ""
+authors = ["femtomc <mccoybecker@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
